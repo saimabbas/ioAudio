@@ -1,0 +1,186 @@
+.mainchatbox::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/* Track */
+
+.mainchatbox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Handle */
+
+.mainchatbox::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+/* Handle on hover */
+
+.mainchatbox::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
+/* ReactVirtualized__List */
+.ReactVirtualized__List::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/* Track */
+
+.ReactVirtualized__List::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+/* Handle */
+
+.ReactVirtualized__List::-webkit-scrollbar-thumb {
+  background: #111111;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+/* Handle on hover */
+
+.ReactVirtualized__List::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
+.mainchatbox {
+  width: 97%;
+  /* height: 440px; */
+  border-bottom: 1px white solid;
+  position: relative;
+  /* padding-top: 10px; */
+  /* overflow-y: scroll; */
+}
+.chatstart {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  /* padding-left: 60px; */
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.message {
+  /* width: 97%; */
+  /* background-color: aqua; */
+  padding: 10px;
+  display: flex;
+  /* align-items: center; */
+}
+
+.c {
+  max-width: 70%;
+}
+
+.message-time {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  color: black;
+  font-size: 0.75rem;
+}
+
+.message-content {
+  color: black !important;
+  font-weight: 400;
+}
+.message-text {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 50%;
+}
+.you {
+  display: inline;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: red;
+}
+.other {
+  display: inline;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.newMessageForm {
+  width: 90%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.newMessageForm .emojiBut {
+  height: 35px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+.newMessageForm .emojiPicker {
+  position: absolute;
+  /* bottom: 10; */
+  /* top: -900; */
+  bottom: 0;
+  right: 8%;
+  top: 23.5%;
+  /* float: right; */
+  margin-left: 200px;
+}
+.emoji-mart-preview {
+  display: none;
+}
+.emojiPicker {
+  height: 0px;
+}
+.newMessageForm .sendMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.my_message {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding: 10px;
+  width: 97%;
+  /* background-color: aqua; */
+
+  /* align-items: center; */
+  /* border-top: 1px gray solid; */
+}
+
+.my_style {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.main-c {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid white;
+  height: 64% !important;
+}
+
+.inputMineFor {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+}

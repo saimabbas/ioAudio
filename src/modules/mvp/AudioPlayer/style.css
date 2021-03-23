@@ -1,0 +1,374 @@
+.chagneVoice {
+  width: 50%;
+  border-right: 1px solid #eeeeee;
+}
+.imageleft {
+  max-width: 135px;
+  margin-left: 52px;
+  margin-top: -5px;
+}
+.rhap_container {
+  background-color: "rgb(121, 102, 228)" !important ;
+}
+
+.arrawDown {
+  cursor: pointer;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+.speed-controls {
+  position: absolute;
+  width: 50px;
+}
+
+#fileInput {
+  display: none;
+}
+.mycustom {
+  position: relative;
+}
+.mycustom label {
+  position: absolute;
+  right: 75px;
+  top: 8px;
+  cursor: pointer;
+  z-index: 9999;
+}
+#textEntry {
+  padding-right: 30px;
+}
+audio {
+  width: 100%;
+  border-radius: 0px;
+}
+.io-color {
+  color: #541a8b;
+}
+.io-bg {
+  background-color: #541a8b;
+  color: white;
+  border: none;
+}
+.io-bg:hover {
+  color: #541a8b;
+  background-color: white;
+  border: 1px solid #541a8b;
+}
+.gray-clip {
+  color: lightgray;
+  cursor: pointer;
+}
+.gray-clip:hover {
+  color: #541a8b;
+}
+.hide {
+  display: none;
+  color: darkred;
+}
+.hide2 {
+  display: none;
+  color: #541a8b;
+}
+#audioPlayback {
+  display: none;
+  height: 38px;
+}
+.play-icon {
+  max-width: 40px !important;
+  margin-left: 30px !important;
+  margin-top: 10px !important;
+  height: auto !important;
+}
+.fa-microphone {
+  color: #504592;
+}
+.fa-download {
+  color: white;
+}
+.fa-chevron-down {
+  color: #919191;
+}
+/* #download-icon img {
+  margin-left: 9px;
+  margin-top: 5px;
+} */
+#download-icon {
+  background: #695ad0;
+  border-radius: 50%;
+  width: 25px;
+  /* padding: 5px; */
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 6px;
+  margin-right: 5px;
+  position: absolute;
+  top: 5px;
+  left: 695px; */
+}
+#download-text {
+  line-height: 1.1;
+  margin-top: 13px;
+  font-weight: 400;
+  position: absolute;
+  font-size: 14px;
+  left: 745px;
+  width: 72px;
+}
+#change-voice {
+  min-height: 25px;
+  border-radius: 4em / 4em;
+  display: flex;
+  width: 60px;
+  align-items: center;
+  justify-content: space-around;
+  height: 20px;
+  background: white;
+  /* position: absolute; */
+  /* left: 834px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  top: 13px; */
+}
+.speed-text {
+  color: #c2bbee;
+  letter-spacing: 2px;
+  /* position: absolute; */
+  /* top: -27px; */
+  font-size: 13px;
+  /* left: -18px; */
+}
+.seed-controls {
+  position: absolute;
+  left: 4px;
+}
+.rcc {
+  max-width: 30px;
+  height: 20px;
+  margin-right: 2px;
+}
+.thrback {
+  width: 20px;
+  padding-left: 2px;
+}
+.controls-div {
+  padding-left: 38px;
+}
+.controls-div2 {
+  padding-left: 58px;
+  padding-top: 15px;
+  position: relative;
+}
+.vertical-line {
+  background: #644fd7;
+  margin-left: 110px;
+  /* position: absolute; */
+  /* left: 832px; */
+  /* top: 74px; */
+  height: 30px;
+  width: 2px;
+}
+#play_button {
+  width: 30px;
+  height: 30px;
+}
+/* #text-title {
+  margin-bottom: 0;
+  position: absolute;
+  top: 16px;
+  left: 102px;
+} */
+/* #text-title input,
+#p-list-subtitle input {
+  background: #8166e9;
+  border: none;
+  color: white;
+  width: 100%;
+} */
+/* #p-list-subtitle input {
+  color: #c2bbee;
+}
+#text-title input:focus,
+#p-list-subtitle input:focus {
+  outline: none;
+} */
+/* #p-list-subtitle {
+  position: absolute;
+  top: 50px;
+  left: 103px;
+  font-size: 15px;
+  color: #c2bbee;
+  width: 270px;
+} */
+
+#waves {
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 12px;
+}
+#waves2:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#waves2 {
+  width: 220px;
+  position: absolute;
+  left: 425px;
+  top: 7px;
+  z-index: 9999;
+}
+#change_vol {
+  /* position: absolute; */
+  /* left: 632px; */
+  /* top: 47px; */
+  /* height: 5px; */
+  height: 1px;
+  width: 59px;
+  position: relative;
+  top: -31px;
+  left: 40px;
+}
+.ant-input-group-addon {
+  display: none !important;
+}
+#vol_img {
+  position: absolute;
+  bottom: 3px;
+  left: 48px;
+  width: 7px;
+}
+.abcdd {
+  border-radius: 10px;
+}
+/* #bottom-right-control {
+  /* position: absolute;
+  left: 703px;
+  top: 80px; */
+/* } */
+/* .controls-div3 {
+  position: absolute;
+  left: 850px;
+  top: 82px;
+} */
+
+.x1speed {
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 12px;
+  padding-left: 8px;
+}
+.x2speed {
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 11px;
+  padding-left: 10px;
+}
+#player img {
+  cursor: pointer;
+}
+#duration,
+#left-duration {
+  color: #fbf9f9;
+  font-size: 12px;
+  font-weight: 500;
+}
+/* #left-duration {
+  position: absolute;
+  left: 277px;
+} */
+#audio-progress {
+  position: absolute;
+  /* top: 93px; */
+  left: 18%;
+  width: 63%;
+  height: 5px;
+  background: white;
+  border-radius: 50px;
+}
+.audio-overlay {
+  background-color: #d4d4d4;
+  background-color: #d4d4d4;
+  width: 100%;
+  position: absolute;
+  border-radius: 62px;
+  margin-left: 0px;
+  height: 5px;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  /* -webkit-transform: rotate(90deg); */
+}
+
+input[type="range"] {
+  position: absolute;
+  top: 40%;
+  transform: rotate(270deg);
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: slider-vertical;
+  width: 1px;
+  height: 5px;
+  background: white;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 80%;
+  background: white;
+  margin-top: -5px;
+}
+
+input[type="range"]:focus,
+input[type="image"]:focus {
+  outline: none;
+}
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;*/
+}
+progress[value]::-webkit-progress-value {
+  background-color: #d4d4d4;
+}
+.sounds-list li {
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+/* .sounds-list li:hover{
+
+} */
+.sounds-list {
+  z-index: 99999;
+  display: none;
+  background: white;
+  list-style: none;
+  top: 26px;
+  position: absolute;
+  width: 110px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 1px;
+  left: -18px;
+  border: 1px solid #8166e9;
+  max-height: 230px;
+  overflow: auto;
+}

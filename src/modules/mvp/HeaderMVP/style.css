@@ -1,0 +1,39 @@
+.colinrowheader {
+  /* background-color: #551a8b; */
+  /* background-color: #2a296d; */
+  background-color: #740cd6;
+  border-radius: "0.7cm 0.7cm 15pt 10%";
+  height: 100%;
+}
+
+/* .abc{
+  border-bottom:0;
+  position:relative;
+  -moz-border-radius:5px 5px 0 0;
+  -webkit-border-radius:5px 5px 0 0;
+}
+.abc:after,
+.abc:before{
+  position:absolute;
+  bottom:-3px;
+  border-top:0;
+}
+.abc:after{
+  border-left:0;
+  -moz-border-radius:0 0 5px 0;
+  -webkit-border-radius:0 0 5px 0;
+  left:-41px;
+}
+.abc:before{
+  border-right:0;
+  -moz-border-radius:0 0 0 5px;
+  -webkit-border-radius:0 0 0 5px;
+  right:-41px;
+} */
+.ant-tooltip-inner {
+  min-width: 15px !important;
+  min-height: 15ps !important;
+  padding: 6px 6px;
+  color: black !important;
+  border-radius: 100 !important;
+}
